@@ -1,6 +1,6 @@
 {
   "command.home.set": "Base enregistrée avec succès en ",
-  "command.home.return": "Teleportation du joueur effectuée avec succès",
+  "command.home.return": "Téléportation du joueur effectuée avec succès",
   "command.home.return_fail": "Vous n'avez pas encore de base!",
 
   "command.farm.already_in_it": "Vous êtes déjà dans la dimension de farm, faites /spawn pour retourner dans l'overworld",
