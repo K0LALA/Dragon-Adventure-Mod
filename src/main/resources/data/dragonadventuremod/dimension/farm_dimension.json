@@ -1,0 +1,13 @@
+{
+  "type": "dragonadventuremod:farm_dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 761270703152300032,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:vanilla_layered",
+      "seed": 625338371207856148,
+      "large_biomes": false
+    }
+  }
+}
