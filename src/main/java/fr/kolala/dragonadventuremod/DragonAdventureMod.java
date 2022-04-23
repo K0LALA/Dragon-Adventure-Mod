@@ -26,7 +26,7 @@ public class DragonAdventureMod
     public static final String MOD_ID = "dragonadventuremod";
 
     // Directly reference a log4j logger.
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
 
     public DragonAdventureMod() {
         // Register the setup method for modloading

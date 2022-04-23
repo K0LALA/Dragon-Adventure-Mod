@@ -1,10 +1,10 @@
 {
-  "name": "dragonadventuremod:farm_dimension",
+  "name": "dragonadventuremod:build_dimension",
   "ultrawarm": false,
   "natural": false,
   "piglin_safe": false,
-  "respawn_anchor_works": false,
-  "bed_works": false,
+  "rebuild_anchor_works": false,
+  "bed_works": true,
   "has_raids": true,
   "has_skylight": true,
   "has_ceiling": true,

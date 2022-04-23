@@ -10,10 +10,10 @@
  - 36.2.20 [CVE-2021-44228]: Update Log4J to fix the security issue inside it (#8270)
  - 36.2.19 Fix potential issue with BackgroundScanHandler for users with slow disc IO (#8211)
  - 36.2.18 Backport #8207 to 1.16 (#8209)
- - 36.2.17 [1.16.x] Add ForgeSpawnEggItem to lazily handle EntityTypes (#8150)
-           * Add ForgeSpawnEggItem to lazily handle EntityTypes
+ - 36.2.17 [1.16.x] Add ForgebuildEggItem to lazily handle EntityTypes (#8150)
+           * Add ForgebuildEggItem to lazily handle EntityTypes
            * Remove OnlyIn
-           * Surround EntityType#spawn() call with try/catch
+           * Surround EntityType#build() call with try/catch
  - 36.2.16 change the AdvancementProvider to make it possabible for mods to hook into it (#7488)
            * back Port changes from #8120
  - 36.2.15 Implements Lazy ItemStack Capabilities (#7879)
@@ -63,11 +63,11 @@
  - 36.1.59 Patch several mob classes to let them use modded versions of their ranged weapons (#7845)
  - 36.1.58 Add Fishing bobber projectile impact event (#7842)
  - 36.1.57 Removes misapplied patch in Entity (#7841)
- - 36.1.56 Removes misleading Nullable annotation from canCreatureSpawn (#7840)
+ - 36.1.56 Removes misleading Nullable annotation from canCreaturebuild (#7840)
  - 36.1.55 Corrects the assigning of mob kills, Fixes MC-121048 (#7836)
  - 36.1.54 Updates MouseHelper to allow for Horizontal Scroll to be recognized as Vertical Scroll (#7834)
  - 36.1.53 Fix entities losing their scoreboard data when they are unloaded (#7826)
- - 36.1.52 [1.16] Allow blocks other than beds or respawn anchors to act as respawn points  (#7824)
+ - 36.1.52 [1.16] Allow blocks other than beds or rebuild anchors to act as rebuild points  (#7824)
  - 36.1.51 Regen patches
  - 36.1.50 Add AT entries for DimensionSettings to make them easier for mods to work with (#7817)
  - 36.1.49 New hook to allow Trapdoors be climbable for custom ladders (#7816)
@@ -120,7 +120,7 @@
  - 36.1.16 Add barrels and barrels/wooden block and item tag (#7676)
  - 36.1.15 Fix shears not properly breaking tripwire (MC-129055) (#7718)
  - 36.1.14 Fix Line endings in tooltips not handled properly in multiplayer screen Closes #7738 (#7739)
- - 36.1.13 Fix cats, phantoms and pillagers saying they're at BlockPos.ZERO during LivingSpawnEvent.CheckSpawn (#7722)
+ - 36.1.13 Fix cats, phantoms and pillagers saying they're at BlockPos.ZERO during LivingbuildEvent.Checkbuild (#7722)
  - 36.1.12 [1.16] Add missing Multipart Blockstate Builder feature: Nested condition groups (#7677)
  - 36.1.11 Pass BlockPos to BlockParticleData used for "fall impact" particle (#7705)
  - 36.1.10 Check version ranges of optional dependencies when present (#7710)
@@ -188,7 +188,7 @@
            This allows custom IBakedModel implementations to use the IModelData provided by their IBakedModel.getModelData() when used in the context of a multipart model.
  - 36.0.31 fix global cache not being a block render type (#7648)
  - 36.0.30 Allow mods to use additional custom LootParameter when querying existing loot tables (#7515)
- - 36.0.29 Add ForgeHooks.canEntitySpawn to Cat, Phantom, and Patrol spawners. (#7569)
+ - 36.0.29 Add ForgeHooks.canEntitybuild to Cat, Phantom, and Patrol builders. (#7569)
  - 36.0.28 Fix/Replace player visibility event (#7573)
  - 36.0.27 Fix: Clear the last error from glfwInit to prevent vanilla from throwing an exception later in the chain when glfw errors. (#7587)
  - 36.0.26 Fix MC-181464 persisting for modded shields (#7602)

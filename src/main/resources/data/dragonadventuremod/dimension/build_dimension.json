@@ -1,5 +1,5 @@
 {
-  "type": "dragonadventuremod:farm_dimension",
+  "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
     "seed": 761270703152300032,

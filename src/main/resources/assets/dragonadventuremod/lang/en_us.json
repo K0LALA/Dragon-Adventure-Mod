@@ -3,8 +3,8 @@
   "command.home.return": "Successfully teleported home",
   "command.home.return_fail": "You don't have a home yet!",
 
-  "command.farm.already_in_it": "You're already in the farm dimension, do /spawn to return in the overworld",
-  "command.spawn.already_in_it": "You're already in the overworld, do /farm to go to the farm dimension",
+  "command.farm.already_in_it": "You're already in the farm dimension, do /spawn to return in the build dimension",
+  "command.build.already_in_it": "You're already in the build dimension, do /farm to go to the farm dimension",
 
   "command.unknown_error": "Unknown Error"
 }
