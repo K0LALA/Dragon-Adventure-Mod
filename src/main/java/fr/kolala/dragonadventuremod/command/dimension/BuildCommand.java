@@ -42,7 +42,7 @@ public class BuildCommand {
                     // Change the dimension of the player
                     player.changeDimension(buildDimension, new ModBuildDimensionTeleporter());
                     // Set the position of the player to -215 68 17
-                    player.setPositionAndUpdate(1088, 170, 486);
+                    player.setPositionAndUpdate(918, 66, -72);
                     // Return 1 to signify that everything is good
                     return 1;
                 } else {
