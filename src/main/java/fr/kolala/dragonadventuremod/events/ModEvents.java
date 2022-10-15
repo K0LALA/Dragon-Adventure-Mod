@@ -18,9 +18,6 @@ public class ModEvents {
         new SetHomeCommand(event.getDispatcher());
         new ReturnHomeCommand(event.getDispatcher());
 
-        new FarmCommand(event.getDispatcher());
-        new BuildCommand(event.getDispatcher());
-
         ConfigCommand.register(event.getDispatcher());
     }
 
