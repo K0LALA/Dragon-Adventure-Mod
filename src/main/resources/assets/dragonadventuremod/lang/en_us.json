@@ -1,10 +1,6 @@
 {
-  "command.home.set": "Successfully set home at ",
-  "command.home.return": "Successfully teleported home",
-  "command.home.return_fail": "You don't have a home yet!",
-
-  "command.farm.already_in_it": "You're already in the farm dimension, do /spawn to return in the build dimension",
-  "command.build.already_in_it": "You're already in the build dimension, do /farm to go to the farm dimension",
-
-  "command.unknown_error": "Unknown Error"
+  "command.dim.already_in": "You're already in the dimension",
+  "command.dim.success": "Successfully teleported into the new dimension",
+  "command.dim.no_dim": "Unknown error, there's no dimension",
+  "command.dim.no_server": "Unknown error, there's no server"
 }

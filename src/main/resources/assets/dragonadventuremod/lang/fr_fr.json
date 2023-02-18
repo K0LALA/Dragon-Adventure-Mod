@@ -1,10 +1,6 @@
 {
-  "command.home.set": "Base enregistrée avec succès en ",
-  "command.home.return": "Téléportation du joueur effectuée avec succès",
-  "command.home.return_fail": "Vous n'avez pas encore de base!",
-
-  "command.farm.already_in_it": "Vous êtes déjà dans la dimension de farm, faites /spawn pour retourner dans la dimension de build",
-  "command.build.already_in_it": "Vous êtes déjà dans la dimension de build, faites /farm pour aller dans la dimension de farm",
-
-  "command.unknown_error": "Erreur Inconnue"
+  "command.dim.already_in": "Vous etes deja dans la dimension",
+  "command.dim.success": "Teleportation effectuee avec succes",
+  "command.dim.no_dim": "Erreur inconnue, pas de dimension",
+  "command.dim.no_server": "Erreur inconnue, pas de serveur"
 }
