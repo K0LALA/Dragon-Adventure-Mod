@@ -1,16 +1,16 @@
 {
   "name": "dragonadventuremod:new_dimension",
   "ultrawarm": false,
-  "natural": false,
-  "piglin_safe": false,
-  "respawn_anchor_works": false,
-  "bed_works": true,
-  "has_raids": true,
+  "natural": true,
+  "coordinate_scale": 1.0,
   "has_skylight": true,
-  "has_ceiling": true,
-  "coordinate_scale": 1,
-  "ambient_light": 0,
+  "has_ceiling": false,
+  "ambient_light": 0.0,
+  "piglin_safe": false,
+  "bed_works": true,
+  "respawn_anchor_works": false,
+  "has_raids": true,
   "logical_height": 256,
-  "effects": "minecraft:overworld",
-  "infiniburn": "minecraft:infiniburn_overworld"
+  "infiniburn": "minecraft:infiniburn_overworld",
+  "effects": "minecraft:overworld"
 }

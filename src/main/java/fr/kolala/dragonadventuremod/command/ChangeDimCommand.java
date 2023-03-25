@@ -8,10 +8,8 @@ import net.minecraft.command.CommandSource;
 import net.minecraft.command.Commands;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TranslationTextComponent;
-import net.minecraft.world.Dimension;
-import net.minecraft.world.DimensionType;
-import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 
 public class ChangeDimCommand {
@@ -36,7 +34,7 @@ public class ChangeDimCommand {
                 ServerWorld dim = server.getWorld(ModDimensions.NewDimension);
                 if(dim != null)
                 {
-                    player.changeDimension(dim, new ModNewDimensionTeleporter());
+                    player.changeDimension(dim, new ModNewDimensionTeleporter(new BlockPos(0, 100, 0)));
                     source.sendFeedback(new TranslationTextComponent("command.dim.success"), true);
                     return 1;
                 } else {
